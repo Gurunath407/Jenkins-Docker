@@ -1,4 +1,4 @@
-FROM openjdk:21
+FROM eclipse-temurin:21-jdk
 COPY target/olp.jar /usr/app/
 WORKDIR /usr/app/
 EXPOSE 8081
